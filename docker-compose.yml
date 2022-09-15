@@ -1,0 +1,33 @@
+version: '3'
+services:
+  jenkins:
+    container_name: jenkins
+    image: jenkins/jenkins
+    ports:
+      - 8080:8080
+    volumes:
+      - D:\Akhil\Docker\Jenkins\Jenkins_Home:/var/jenkins_home
+    networks:
+      - nets
+
+  remote_host:
+    container_name: remote-host
+    image: remote_host
+    build:
+      context: D:\Akhil\Docker\Jenkins\centos7
+    volumes:
+      - D:\Akhil\Docker\Jenkins\centos7\data:/tmp/
+    networks:
+      - nets
+
+  db_host:
+    container_name: db
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=1234
+    volumes:
+      - D:\Akhil\Docker\Jenkins\db_data:/var/lib/mysql
+    networks:
+      - nets
+networks:
+  nets:
