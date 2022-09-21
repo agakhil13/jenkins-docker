@@ -1,0 +1,25 @@
+pipeline {
+    agent any 
+    stages{
+        stage('Post Test'){
+            steps{
+                sh 'echo "Pipeline is executing"'
+            }
+        }
+    }
+
+    post {
+        always {
+            echo "Execution is completed with status: "
+        }
+        success {
+            echo "Successful."
+        }
+        failure {
+            echo "Failed."
+        }
+        fixed {
+            echo "Pipeline is working now."
+        }
+    }
+}
