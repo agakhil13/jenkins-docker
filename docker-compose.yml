@@ -2,7 +2,9 @@ version: '3'
 services:
   jenkins:
     container_name: jenkins
-    image: jenkins/jenkins
+    image: jenkins-ansible
+    build:
+      context: D:\Akhil\Docker\Jenkins\jenkins-ansible
     ports:
       - 8080:8080
     volumes:
@@ -29,5 +31,15 @@ services:
       - D:\Akhil\Docker\Jenkins\db_data:/var/lib/mysql
     networks:
       - nets
+
+  nginx_host:
+    container_name: nginx
+    image: nginx
+    volumes:
+    - D:\Akhil\Docker\Jenkins\web:/usr/share/nginx/html
+    ports:
+    - 80:80
+    networks:
+    - nets
 networks:
   nets:

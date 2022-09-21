@@ -1,18 +1,28 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <scriptApproval plugin="script-security@1175.v4b_d517d6db_f0">
-  <approvedScriptHashes/>
+  <approvedScriptHashes>
+    <string>017d0db438428731cd600b6ebda805065433520f</string>
+    <string>2012e41799def6b590b44ba62f7bab15fdd6bdf1</string>
+    <string>2384c04745cfae890ad6558ce9a9a95b7c7dae7c</string>
+    <string>4de941c19a46181e2ff4ea4f749df10a1f63fe6f</string>
+    <string>5aa40ee0979d4753cfb1b984fa64c2b856876e06</string>
+    <string>793f5ab4595fa9d8d3fad763c90ea3236cc768d7</string>
+    <string>7da5a8805b0941ff2fed7b73d18a401f5a798400</string>
+    <string>838d7aa5cf19ec7a5754a973d01cebe508db223f</string>
+    <string>86efab8842b4262c41a204c90788a2f1faa7d4f6</string>
+    <string>8daa3fedee63542971deea1ed18a1273e1be5cfe</string>
+    <string>9959935e5016098d2a53b9093141660d65b22a76</string>
+    <string>a5da5f17460134e3462f4133fbe02a095fe8d759</string>
+    <string>a69dd2e8dfb2a0ed96acbb124becf4a691631ad1</string>
+    <string>ae28d896e4af432b3723ff1a026ca361f5aafd89</string>
+    <string>b21e286dc5706b574e0774ab9f016fe28afd8747</string>
+    <string>c32fbf514ceae8134cc8ca2deac5fed7254fab8d</string>
+    <string>c359d0adf990d2104fa51ad3479180247b7b7dc3</string>
+  </approvedScriptHashes>
   <approvedSignatures/>
   <aclApprovedSignatures/>
   <approvedClasspathEntries/>
-  <pendingScripts>
-    <pendingScript>
-      <context>
-        <user>admin</user>
-      </context>
-      <script></script>
-      <language>groovy</language>
-    </pendingScript>
-  </pendingScripts>
+  <pendingScripts/>
   <pendingSignatures/>
   <pendingClasspathEntries/>
 </scriptApproval>

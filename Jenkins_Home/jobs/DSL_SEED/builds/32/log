@@ -1,0 +1,13 @@
+Started by user [8mha:////4OtShHF1SV7HgjEt98qJYyGg5457gaWz6ZM7+6Ipbd/lAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/DSL_SEED
+Processing provided DSL script
+ERROR: startup failed:
+script: 9: illegal string body character after dollar sign;
+   solution: either escape a literal dollar sign "\$5" or bracket the value expression "${5}" @ line 9, column 10.
+       shell("""
+            ^
+
+1 error
+
+Finished: FAILURE

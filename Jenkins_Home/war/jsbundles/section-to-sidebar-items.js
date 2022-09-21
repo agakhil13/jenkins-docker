@@ -15,8 +15,8 @@ function createElementFromHtml(html) {
 function toId(string) {
   return string.trim().replace(/[\W_]+/g, "-").toLowerCase();
 }
-// EXTERNAL MODULE: ./.yarn/cache/jquery-npm-3.6.1-6f29087f48-6177d866a7.zip/node_modules/jquery/dist/jquery.js
-var jquery = __webpack_require__(4655);
+// EXTERNAL MODULE: ./.yarn/cache/jquery-npm-3.6.0-ca7872bdbb-8fd5fef4aa.zip/node_modules/jquery/dist/jquery.js
+var jquery = __webpack_require__(7601);
 var jquery_default = /*#__PURE__*/__webpack_require__.n(jquery);
 // EXTERNAL MODULE: ./.yarn/cache/window-handle-npm-1.0.1-369b8e9cbe-8f2c183a0d.zip/node_modules/window-handle/index.js
 var window_handle = __webpack_require__(30);

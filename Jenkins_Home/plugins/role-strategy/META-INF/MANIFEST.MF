@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Role-based Authorization Strategy
+Specification-Version: 0.0
+Implementation-Title: Role-based Authorization Strategy
+Implementation-Version: 561.v9846c7351a_41
+Group-Id: org.jenkins-ci.plugins
+Short-Name: role-strategy
+Long-Name: Role-based Authorization Strategy
+Url: https://github.com/jenkinsci/role-strategy-plugin
+Plugin-Version: 561.v9846c7351a_41
+Hudson-Version: 2.303.3
+Jenkins-Version: 2.303.3
+Plugin-Dependencies: caffeine-api:2.9.3-65.v6a_47d0f4d1fe,configuration-
+ as-code:1511.vb_f985b_894e40;resolution:=optional,cloudbees-folder:6.72
+ 2.v8165b_a_cf25e9;resolution:=optional
+Plugin-Developers: Thomas Maurel:tmaurel:,Romain Seguy:rseguy:,Oleg Nena
+ shev:oleg_nenashev:o.v.nenashev@gmail.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/role-strategy-plugin
+

@@ -42,7 +42,17 @@
     </hudson.tasks.Mailer_-UserProperty>
     <jenkins.security.ApiTokenProperty>
       <tokenStore>
-        <tokenList/>
+        <tokenList>
+          <jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+            <uuid>a3ce6930-121e-4d65-834e-0f39091c75fc</uuid>
+            <name>webhook</name>
+            <creationDate>2022-09-19 08:04:17.553 UTC</creationDate>
+            <value>
+              <version>11</version>
+              <hash>ed1a1aeabbcd946879f814fc88ba150743bf1bef9afa7b408985928bd122f597</hash>
+            </value>
+          </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+        </tokenList>
       </tokenStore>
     </jenkins.security.ApiTokenProperty>
     <jenkins.security.LastGrantedAuthoritiesProperty>

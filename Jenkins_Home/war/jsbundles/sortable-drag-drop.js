@@ -19,11 +19,9 @@
 sortablejs_modular_sortable_core_esm_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"].mount */ .ZP.mount(new sortablejs_modular_sortable_core_esm_js__WEBPACK_IMPORTED_MODULE_0__/* .AutoScroll */ .lK());
 
 function registerSortableDragDrop(e) {
-  if (!e || !e.classList.contains("with-drag-drop")) {
-    return false;
-  }
+  if (!e || !e.classList.contains("with-drag-drop")) return false; // eslint-disable-next-line no-unused-vars
 
-  new sortablejs_modular_sortable_core_esm_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .ZP(e, {
+  const sortableElement = new sortablejs_modular_sortable_core_esm_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .ZP(e, {
     draggable: ".repeated-chunk",
     handle: ".dd-handle",
     ghostClass: "repeated-chunk--sortable-ghost",

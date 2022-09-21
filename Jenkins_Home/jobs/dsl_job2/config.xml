@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+    <actions/>
+    <description>This is a description of job</description>
+    <keepDependencies>false</keepDependencies>
+    <properties>
+        <hudson.model.ParametersDefinitionProperty>
+            <parameterDefinitions>
+                <hudson.model.StringParameterDefinition>
+                    <name>Name</name>
+                    <defaultValue>Anil</defaultValue>
+                    <description>Name of the person</description>
+                </hudson.model.StringParameterDefinition>
+                <hudson.model.ChoiceParameterDefinition>
+                    <choices class="java.util.Arrays$ArrayList">
+                        <a class="string-array">
+                            <string>option1</string>
+                            <string>option2</string>
+                            <string>option3</string>
+                        </a>
+                    </choices>
+                    <name>Select_List</name>
+                </hudson.model.ChoiceParameterDefinition>
+                <hudson.model.BooleanParameterDefinition>
+                    <name>Flag</name>
+                    <defaultValue>false</defaultValue>
+                </hudson.model.BooleanParameterDefinition>
+            </parameterDefinitions>
+        </hudson.model.ParametersDefinitionProperty>
+    </properties>
+    <scm class="hudson.scm.NullSCM"/>
+    <canRoam>true</canRoam>
+    <disabled>false</disabled>
+    <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+    <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+    <triggers/>
+    <concurrentBuild>false</concurrentBuild>
+    <builders>
+        <hudson.tasks.Shell>
+            <command>
+			echo 'This is DLS job'
+		</command>
+        </hudson.tasks.Shell>
+    </builders>
+    <publishers/>
+    <buildWrappers/>
+</project>
