@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                sh 'echo "This is first line"'
+                sh '''
+                echo "This is line two"
+                ls -lrth
+                '''
+
+            }
+        }
+    }
+}

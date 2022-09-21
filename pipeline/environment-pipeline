@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+    environment {
+        Name = "Anil"
+        ID = "11"
+    }
+    stages {
+        stage('Build'){
+            steps {
+                sh '''
+                echo "Name is $Name"
+                echo "ID is $ID"
+                '''
+            }
+        }
+    }
+}
