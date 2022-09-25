@@ -1,0 +1,21 @@
+job('dsl_job2') {
+  description("This is a description of job")
+  parameters {
+    stringParam('Name', defaultValue='Anil', description='Name of the person')
+    choiceParam('Select_List', ['option1', 'option2', 'option3'])
+    booleanParam('Flag', false)
+  }
+  steps {
+    shell("""
+			echo 'This is DLS job'
+		""")
+  }
+  //scm {
+    //git('https://github.com', 'main')
+  //}
+  //triggers {
+    //cron('H * * * 0')
+ //}
+  
+  
+    }
